@@ -4,26 +4,26 @@
 class MockartyCli < Formula
   desc "Mockarty CLI — mock, test, and automate your APIs"
   homepage "https://mockarty.ru"
-  version "0.0.4-beta"
+  version "0.0.5-beta"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/mockarty/mockarty-cli/releases/download/v0.0.4-beta/mockarty-cli-darwin-arm64"
-      sha256 "f6d1cec833b8ff8985341743387a917e9a0501656080ab7c6dce64b2c8f28535"
+      url "https://github.com/mockarty/mockarty-cli/releases/download/v0.0.5-beta/mockarty-cli-darwin-arm64"
+      sha256 "851a844ca35d97e598631dc059fd8b51197d0dca1af78bf5f788fd270f7373a4"
     else
-      url "https://github.com/mockarty/mockarty-cli/releases/download/v0.0.4-beta/mockarty-cli-darwin-amd64"
-      sha256 "e5e7d6fcef712908ee74cc4fef71e2a98dd666b616759b929aa01485f93757fd"
+      url "https://github.com/mockarty/mockarty-cli/releases/download/v0.0.5-beta/mockarty-cli-darwin-amd64"
+      sha256 "b1aa90d07aa26d52b7dc4f3c8c1c3c0e0b2df7db4e66e9d5ea9e07fdae572dc8"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/mockarty/mockarty-cli/releases/download/v0.0.4-beta/mockarty-cli-linux-arm64"
-      sha256 "bd100512a5c9023a95b729e7d7d4eb01f68796edcbb259b2005400ad3e2efde4"
+      url "https://github.com/mockarty/mockarty-cli/releases/download/v0.0.5-beta/mockarty-cli-linux-arm64"
+      sha256 "258fd527c3af2abd260e944586832a098d0a25b59f9fe6ef5db6c0331b04d4ad"
     else
-      url "https://github.com/mockarty/mockarty-cli/releases/download/v0.0.4-beta/mockarty-cli-linux-amd64"
-      sha256 "0e68a2ac8504fe2e2bdbca2300f9663581559af49fee726807f231ff89fa658a"
+      url "https://github.com/mockarty/mockarty-cli/releases/download/v0.0.5-beta/mockarty-cli-linux-amd64"
+      sha256 "2eab9adedc6c76ca67114d1ac131ac1cb3ccf58ecd2363f71ef52a2f7b3fe7c8"
     end
   end
 
